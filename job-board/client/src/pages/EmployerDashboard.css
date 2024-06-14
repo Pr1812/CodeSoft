@@ -1,0 +1,83 @@
+/* body {
+    margin: 0;
+    font-family: 'Arial, sans-serif';
+    background-color: #f0f0f0;
+  } */
+
+.employer-dashboard {
+  padding: 40px;
+  /* background-color: #f0f0f0; */
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.employer-dashboard h1 {
+  text-align: center;
+  color: #646cff;
+  font-size: 2.5em;
+}
+
+.account-management,
+.job-posting,
+.posted-jobs {
+  margin-bottom: 40px;
+}
+
+.employer-dashboard h2 {
+  color: #646cff;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.employer-dashboard input,
+.employer-dashboard textarea {
+  /* display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px; */
+  width: 80%;
+  padding: 0.6rem 0.6rem;
+  font-size: 1.8rem;
+  line-height: 1.56;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.06rem;
+  display: block;
+  margin-bottom: 20px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  /* background-color: rgb(228, 228, 228); */
+}
+
+.employer-dashboard button {
+  background-color: #646cff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.employer-dashboard button:hover {
+  background-color: #4a53c0;
+}
+
+.job-card {
+  background: #fff;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 15px;
+  padding: 20px;
+  text-align: left;
+}
+
+.job-card h3 {
+  color: #646cff;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}

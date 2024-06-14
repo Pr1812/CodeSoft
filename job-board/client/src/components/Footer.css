@@ -1,0 +1,9 @@
+footer {
+  padding: 2.5rem;
+  text-align: center;
+  background-color: var(--btn-color);
+  margin-top: auto;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

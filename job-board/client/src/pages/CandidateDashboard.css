@@ -1,0 +1,72 @@
+/* body {
+    margin: 0;
+    font-family: 'Arial, sans-serif';
+    background-color: #f0f0f0;
+  }
+   */
+  .candidate-dashboard {
+    padding: 40px;
+    background-color: #f0f0f0;
+    max-width: 800px;
+    margin: 40px auto;
+  }
+  
+  .candidate-dashboard h1 {
+    text-align: center;
+    color: #646CFF;
+    font-size: 2.5em;
+  }
+  
+  .profile-management,
+  .job-applications,
+  .applied-jobs {
+    margin-bottom: 40px;
+  }
+  
+  .candidate-dashboard h2 {
+    color: #646CFF;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  /* .candidate-dashboard input,
+  .candidate-dashboard textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  } */
+  
+  .candidate-dashboard button {
+    background-color: #646CFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .candidate-dashboard button:hover {
+    background-color: #4a53c0;
+  }
+  
+  .job-card {
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .job-card h3 {
+    color: #646CFF;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+  }
+  
